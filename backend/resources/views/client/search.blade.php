@@ -1,6 +1,6 @@
 @extends('client.layouts.master')
 
-@section('title', 'Team13.com - Mạng bán tour du lịch mạo hiểm trực tuyến')
+@section('title', 'Y2t.vn - Mạng bán tour du lịch trực tuyến')
 @section('css')
     <link rel="stylesheet" href="https://cdn.bootcss.com/simplePagination.js/1.6/simplePagination.min.css">
     <style>
@@ -96,7 +96,7 @@
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Khởi hành: {{date("d/m/Y", strtotime($item['tour']->tour_time_start))}}
                                                                         | 07:00</div>
-                                                                    <div class="col-sm-5">Hoạt động: {{$item['category']->cate_name}}</div>
+                                                                    <div class="col-sm-5">Dòng tour: {{$item['category']->cate_name}}</div>
                                                                 </div>
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Nơi khởi hành: {{$item['location']->loca_name}} </div>

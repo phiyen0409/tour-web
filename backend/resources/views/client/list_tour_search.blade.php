@@ -37,7 +37,7 @@
                                     <div class="row">
                                         <div class="col-sm-7">Khởi hành: {{date("d/m/Y", strtotime($item['tour']->tour_time_start))}}
                                             | 07:00</div>
-                                        <div class="col-sm-5">Hoạt động: {{$item['category']->cate_name}}</div>
+                                        <div class="col-sm-5">Dòng tour: {{$item['category']->cate_name}}</div>
                                     </div>
                                     <div class="row">
                                         <div class="col-sm-7">Nơi khởi hành: {{$item['location']->loca_name}} </div>

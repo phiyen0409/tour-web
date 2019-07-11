@@ -89,11 +89,11 @@ class BookingTourController extends Controller
         $data['tour_detail'] = $tour_detail;
         
         Mail::send('client.email_paid', $data, function ($message) use($email, $name) {
-            $message->from('thanglong2098@gmail.com', 'Y2T Tour');
+            $message->from('nguyenphiyen1998.com', 'Y2T Tour');
 
             $message->to($email, $email);
 
-            $message->cc('16521095@gm.uit.edu.vn', 'Y2T Tour');
+            $message->cc('16521484@gm.uit.edu.vn', 'Y2T Tour');
 
             $message->subject('Vé tham dự '.$name);
         });

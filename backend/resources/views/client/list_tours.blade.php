@@ -1,6 +1,6 @@
 @extends('client.layouts.master')
 
-@section('title', 'Team13.com - '.$tit)
+@section('title', 'Y2t.vn - '.$tit)
 
 @section('content')
 <div id="content">
@@ -49,7 +49,7 @@
                                                     <div class="info">
                                                         <div class="row">
                                                             <div class="col-sm-6">Khởi hành: {{\Carbon\Carbon::parse($item->tour_time_start)->format('d/m/Y')}}</div>
-                                                            <div class="col-sm-6">Hoạt động: {{$item->cate_name}}</div>
+                                                            <div class="col-sm-6">Dòng tour: {{$item->cate_name}}</div>
                                                         </div>
                                                         <div class="row">
                                                             <div class="col-sm-6">Nơi khởi hành: {{$item->loca_name}}</div>
@@ -121,7 +121,7 @@
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Khởi hành: 05/07/2019
                                                                         | 07:00</div>
-                                                                    <div class="col-sm-5">Hoạt động: Lặn</div>
+                                                                    <div class="col-sm-5">Dòng tour: Lặn</div>
                                                                 </div>
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Nơi khởi hành: Hồ Chí
@@ -184,7 +184,7 @@
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Khởi hành: 05/07/2019
                                                                         | 07:00</div>
-                                                                    <div class="col-sm-5">Hoạt động: Lặn</div>
+                                                                    <div class="col-sm-5">Dòng tour: Lặn</div>
                                                                 </div>
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Nơi khởi hành: Hồ Chí
@@ -247,7 +247,7 @@
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Khởi hành: 05/07/2019
                                                                         | 07:00</div>
-                                                                    <div class="col-sm-5">Hoạt động: Lặn</div>
+                                                                    <div class="col-sm-5">Dòng tour: Lặn</div>
                                                                 </div>
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Nơi khởi hành: Hồ Chí
@@ -323,7 +323,7 @@
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Khởi hành: 05/07/2019
                                                                         | 07:00</div>
-                                                                    <div class="col-sm-5">Hoạt động: Lặn</div>
+                                                                    <div class="col-sm-5">Dòng tour: Lặn</div>
                                                                 </div>
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Nơi khởi hành: Hồ Chí
@@ -386,7 +386,7 @@
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Khởi hành: 05/07/2019
                                                                         | 07:00</div>
-                                                                    <div class="col-sm-5">Hoạt động: Lặn</div>
+                                                                    <div class="col-sm-5">Dòng tour: Lặn</div>
                                                                 </div>
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Nơi khởi hành: Hồ Chí
@@ -449,7 +449,7 @@
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Khởi hành: 05/07/2019
                                                                         | 07:00</div>
-                                                                    <div class="col-sm-5">Hoạt động: Lặn</div>
+                                                                    <div class="col-sm-5">Dòng tour: Lặn</div>
                                                                 </div>
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Nơi khởi hành: Hồ Chí
@@ -525,7 +525,7 @@
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Khởi hành: 05/07/2019
                                                                         | 07:00</div>
-                                                                    <div class="col-sm-5">Hoạt động: Lặn</div>
+                                                                    <div class="col-sm-5">Dòng tour: Lặn</div>
                                                                 </div>
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Nơi khởi hành: Hồ Chí
@@ -588,7 +588,7 @@
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Khởi hành: 05/07/2019
                                                                         | 07:00</div>
-                                                                    <div class="col-sm-5">Hoạt động: Lặn</div>
+                                                                    <div class="col-sm-5">Dòng tour: Lặn</div>
                                                                 </div>
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Nơi khởi hành: Hồ Chí
@@ -651,7 +651,7 @@
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Khởi hành: 05/07/2019
                                                                         | 07:00</div>
-                                                                    <div class="col-sm-5">Hoạt động: Lặn</div>
+                                                                    <div class="col-sm-5">Dòng tour: Lặn</div>
                                                                 </div>
                                                                 <div class="row">
                                                                     <div class="col-sm-7">Nơi khởi hành: Hồ Chí
@@ -747,7 +747,7 @@
 <!-- 
                         <div class="item">
                             <div class="head">
-                                HOẠT ĐỘNG
+                                DÒNG TOUR
                             </div>
                             <div class="body">
                                 <div class="group">

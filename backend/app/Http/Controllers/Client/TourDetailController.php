@@ -24,6 +24,7 @@ class TourDetailController extends Controller
         $data['comments'] = $this->getComments($code);
         $data['review_score'] = $this->getReviewScore($code);
 
+
         return view('client.tour_detail', $data);
     }
 
@@ -95,7 +96,7 @@ class TourDetailController extends Controller
         $data2 = DB::table('tours')
             ->where('tour_tourist_route', $data1->first()->tour_tourist_route)
             ->join('tourist_routes', 'tour_tourist_route', 'tr_id')
-            ->join('promotions', 'tour_promotion', 'prom_id')
+            ->leftJoin('promotions', 'tour_promotion', 'prom_id')
             ->orderBy('tour_time_start')
             ->get();
 

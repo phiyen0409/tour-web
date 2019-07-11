@@ -44,8 +44,8 @@
               <thead>
                 <tr>
                   <th>Tháng</th>
-                  <th>Năm</th>
                   <th>Quý</th>
+                  <th>Năm</th>
                   <th>Chi phí</th>
                   <th>Tổng tiền vé</th>
                   <th>Lợi nhuận</th>

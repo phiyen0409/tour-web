@@ -212,7 +212,7 @@
                                     <input name="departure_date" type="date" value="{{ date('Y-m-d')}}" class="form-control">
                                 </div>
                                 <div class="item col-lg-2 col-md-4">
-                                    <div class="title">HOẠT ĐỘNG</div>
+                                    <div class="title">DÒNG TOUR</div>
                                     <select name="category">
                                         <option value="all">Tất cả</option>
                                         @foreach ($data['list_all_categories'] as $item)
@@ -248,7 +248,7 @@
 
     <div id="introduction">
         <div class="tours-title">
-            <h2>VÌ SAO CHỌN TEAM13.COM</h2>
+            <h2>VÌ SAO CHỌN Y2T.VN</h2>
         </div>
         <div class="wrapper">
             <div class="row">
@@ -399,11 +399,10 @@
         <div class="wrapper">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="title">MẠNG BÁN TOUUR DU LỊCH MẠO HIỂM Team13.COM</div>
+                    <div class="title">MẠNG BÁN TOUR DU LỊCH Y2T.VN</div>
                     <div class="content">
                         <p><strong>Đại diện:</strong> Ông Trần Văn Long - Chủ tịch HĐQT kiêm Tổng giám đốc</p>
-                        <p><strong>Trụ sở chính:</strong> 95B-97-99 Trần Hưng Đạo, Quận 1, TP. Hồ Chí Minh.</p>
-                        <p><strong>Chi nhánh Hà Nội:</strong> 66 Trần Hưng Đạo, Quận Hoàn Kiếm, Hà Nội</p>
+                        <p><strong>Văn phòng:</strong> Phường Linh Trung, Quận Thủ Đức, TP. Hồ Chí Minh.</p>
                         <p><strong>Điện thoại:</strong> 0984567669 | <strong>Hotline:</strong> 0968775364</p>
                     </div>
                 </div>
@@ -459,8 +458,8 @@
 
     <div id="copyright">
         <div class="wrapper">
-            <p>Copyright © 2019 Team13.com. Bảo lưu mọi quyền. Ghi rõ nguồn "www.Team13.com" khi sử dụng
-                lại thông tin từ website này</p>
+            <!-- <p>Copyright © 2019 Team13.com. Bảo lưu mọi quyền. Ghi rõ nguồn "www.Team13.com" khi sử dụng
+                lại thông tin từ website này</p> -->
             <p>Số GPKD: 0300465937 do Sở Kế Hoạch và Đầu Tư Thành Phố Hồ Chí Minh cấp ngày 27/09/2010</p>
             <p>Giấy phép số: 239/GP-TTĐT do Cục Quản Lý Phát Thanh, Truyền Hình và Thông Tin Điện Tử cấp ngày
                 31/12/2008 </p>

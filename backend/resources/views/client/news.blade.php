@@ -1,6 +1,6 @@
 @extends('client.layouts.master')
 
-@section('title', 'Team13.com - Mạng bán tour du lịch mạo hiểm trực tuyến')
+@section('title', 'Y2t.vn - Mạng bán tour du lịch trực tuyến')
 
 @section('content')
 <div id="content">

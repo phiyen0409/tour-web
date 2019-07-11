@@ -1,6 +1,6 @@
 @extends('client.layouts.master')
 
-@section('title', 'Team13.com - Mạng bán tour du lịch mạo hiểm trực tuyến')
+@section('title', 'Y2t.vn - Mạng bán tour du lịch trực tuyến')
 
 @section('content')
 <div id="content">
@@ -221,7 +221,7 @@
 <div id="popular-activity" class="tours">
     <div class="tours-title">
         <a href="#">
-            <h2>HOẠT ĐỘNG PHỔ BIẾN</h2>
+            <h2>DÒNG TOUR PHỔ BIẾN</h2>
         </a>
     </div>
     <div class="activity-wrapper tours-list">

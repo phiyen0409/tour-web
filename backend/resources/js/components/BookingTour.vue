@@ -82,7 +82,7 @@
                       <i class="fa fa-times red"></i>
                     </a>
                   </td>
-                  <td v-show="book.bt_status != 0">
+                  <td v-if="book.bt_status != 0">
                     <a href="#" disabled>
                       <i class="fa fa-check blue"></i>
                     </a>/

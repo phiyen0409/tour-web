@@ -128,7 +128,7 @@ class BookingController extends Controller
 
             $item_1->setName($name) /** item name **/
                 ->setCurrency('USD')
-                ->setQuantity($request->num_child +  $request->num_adult)
+                ->setQuantity(1)
                 ->setPrice($bt_total_price); /** unit price **/
 
             $item_list = new ItemList();
@@ -226,11 +226,11 @@ class BookingController extends Controller
             $data['info'] = $book;
             
             Mail::send('client.email_book', $data, function ($message) use($email, $name) {
-                $message->from('thanglong2098@gmail.com', 'Y2T Tour');
+                $message->from('nguyenphiyen1998@gmail.com', 'Y2T Tour');
     
                 $message->to($email, $email);
     
-                $message->cc('16521095@gm.uit.edu.vn', 'Y2T Tour');
+                $message->cc('16521484@gm.uit.edu.vn', 'Y2T Tour');
     
                 $message->subject('Xác nhận đơn hàng cho '.$name);
             });
@@ -309,11 +309,11 @@ class BookingController extends Controller
             $data['info'] = $book;
             
             Mail::send('client.email_paid', $data, function ($message) use($email, $name) {
-                $message->from('thanglong2098@gmail.com', 'Y2T Tour');
+                $message->from('nguyenphiyen1998@gmail.com', 'Y2T Tour');
     
                 $message->to($email, $email);
     
-                $message->cc('16521095@gm.uit.edu.vn', 'Y2T Tour');
+                $message->cc('16521484@gm.uit.edu.vn', 'Y2T Tour');
     
                 $message->subject('Vé tham dự '.$name);
             });
